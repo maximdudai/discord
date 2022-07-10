@@ -8,7 +8,11 @@
     <!-- Font Awesome v4 -->
     <script src="https://kit.fontawesome.com/499387ff27.js" crossorigin="anonymous"></script>
 
+    <!-- main css -->
     <link rel="stylesheet" href="./style/style.css">
+    
+    <!-- css media -->
+    <link rel="stylesheet" href="./style/media.css">
 
     <title>Discord | Your Place to Talk and Hang Out</title>
 </head>
@@ -27,17 +31,41 @@
                         </div>
                         
                         <div class="home-links">
+                            <div class="mobile-nav-content">
+                                <div class="mobile-content">
+                                    <div class="logo-close_btn">
+                                        <div class="discod-logo">
+                                            <span><i class='fab fa-discord'></i> Discord</span>
+                                        </div>
+                                        <div class="close-nav">
+                                            <i class="fa fa-times" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                    <div class="hr-line">
+                                        <hr id="close-nav-hr">
+                                    </div>
+                                </div>
+
+                                <div class="download-app">
+                                    <a href="/"><i class="fa fa-download" aria-hidden="true"></i> Download from Google Play</a>
+                                </div>
+                            </div>
+
                             <a href="/">Download</a>
                             <a href="/">Nitro</a>
                             <a href="/">Safety</a>
                             <a href="/">Support</a>
                             <a href="/">Blog</a>
                             <a href="/">Careers</a>
+
+                            <div class="mobile-btn hidden"></div>
                         </div>
                         
                         <div class="home-open_discord">
                             <a href="/">Open Discord</a>
                         </div>
+                        <div class="responsive-btn"><div class="bar1"></div><div class="bar2"></div><div class="bar3"></div></div>
+                        
                     </nav>
 
                 </div>
@@ -55,7 +83,7 @@
                             </p>
                         </div>
                         <div class="download-open">
-                            <a id="download-btn" href="#"><i class="fa fa-download" aria-hidden="true"></i> Download for windows</a>
+                            <a id="download-btn" href="#"><i class="fa fa-download" aria-hidden="true"></i> Download for <span id="detect-mobile">windows</span></a>
                             <a id="open-app-btn" href="#">Open Discord in your browser</a>
                         </div>
 

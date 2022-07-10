@@ -1,0 +1,101 @@
+@media only screen and (max-width: 600px) {
+
+}
+@media screen and (max-width: 768px) {
+    
+}
+@media only screen and (max-width: 992px) {
+    
+}
+@media screen and (max-width: 1200px) {
+    .bar1, .bar2, .bar3 {
+        display: flex;
+        flex-direction: column;
+
+        position: relative;
+        right: 0;
+
+        width: 35px;
+        height: 5px;
+        background-color: #333;
+        margin: 6px 0;
+        transition: 0.4s;
+        cursor: pointer;
+    } 
+    .mobile-nav-content {
+        display: block;
+    }
+    .nav-content {
+        width: 100%;
+    }
+    .nav-bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 95%;
+    }
+
+    .home-links {
+        display: none;
+    }
+
+    .home-links a {
+        margin: 10px;
+
+        position: relative;
+        color: black;
+        font-weight: 100;
+        margin-left: 40px;
+    }
+
+    .mobile-nav-link {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        background-color: white;
+
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 300px;
+        height: 100%;
+        z-index: 100;
+
+        border-radius: 10px 0;
+    }
+    .logo-close_btn {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        margin: 0 10px;
+    }
+    .mobile-content {
+        display: flex;
+        flex-direction: column;
+    }
+    #close-nav-hr {
+        width: 80%;
+        border: 0;
+        border-radius: 50%;
+        background-color: silver;
+        padding: .1px;
+    }
+    .discod-logo {
+        font-size: 1.25em;
+        font-family: 'Archivo Black', sans-serif;
+    }
+    .download-app {
+        display: flex;
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        background-color: #5865f2;
+        font-size: .8em;
+        width: 80%;
+        border: 0;
+        border-radius: 40px;
+    }
+    .download-app a { color: white; }
+}
