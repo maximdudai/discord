@@ -12,6 +12,7 @@ mobileButton.addEventListener("click", function() {
 
 if(window.orientation > -1) {
     document.querySelector("#detect-mobile").textContent = "mobile";
+    document.getElementById("open-app-btn").textContent = "Open Discord in your mobile";
 }
 
 const closeNavBtn = document.querySelector(".close-nav");
